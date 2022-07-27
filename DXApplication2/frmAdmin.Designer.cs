@@ -49,7 +49,7 @@
             this.label7 = new System.Windows.Forms.Label();
             this.panel5 = new System.Windows.Forms.Panel();
             this.label5 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.txbVaiTro = new System.Windows.Forms.TextBox();
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
             this.button6 = new System.Windows.Forms.Button();
             this.btnXoa = new System.Windows.Forms.Button();
@@ -384,7 +384,7 @@
             // 
             this.tablePanel2.SetColumn(this.panel5, 2);
             this.panel5.Controls.Add(this.label5);
-            this.panel5.Controls.Add(this.textBox5);
+            this.panel5.Controls.Add(this.txbVaiTro);
             this.panel5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel5.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panel5.Location = new System.Drawing.Point(542, 55);
@@ -407,15 +407,15 @@
             this.label5.TabIndex = 0;
             this.label5.Text = "Vai trò:";
             // 
-            // textBox5
+            // txbVaiTro
             // 
-            this.textBox5.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.textBox5.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox5.Location = new System.Drawing.Point(0, 21);
-            this.textBox5.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(261, 28);
-            this.textBox5.TabIndex = 1;
+            this.txbVaiTro.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.txbVaiTro.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txbVaiTro.Location = new System.Drawing.Point(0, 21);
+            this.txbVaiTro.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            this.txbVaiTro.Name = "txbVaiTro";
+            this.txbVaiTro.Size = new System.Drawing.Size(261, 28);
+            this.txbVaiTro.TabIndex = 1;
             // 
             // tableLayoutPanel3
             // 
@@ -1068,7 +1068,7 @@
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox txbVaiTro;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel3;
         private System.Windows.Forms.Button btnXoa;
         private System.Windows.Forms.Button btnThem;
